@@ -1,0 +1,532 @@
+{
+	"id": "bbba1074-1781-4bcb-9ed5-4cd6a9888c20",
+	"name": "sysgerente",
+	"allTests": [],
+	"timestamp": "2019-06-18T01:53:20.816Z",
+	"collection_id": "b67f5397-48d4-431c-883d-8b5b890deeef",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "b67f5397-48d4-431c-883d-8b5b890deeef",
+		"name": "sysgerente",
+		"description": "Sistema para entrega da matéria de Programação em Scripts da FATEC Franca",
+		"auth": null,
+		"events": null,
+		"variables": null,
+		"order": [
+			"ceca30a4-de7f-4b05-8a16-6cb5be990fd9",
+			"a35e136a-5a47-4209-b20a-7ece3b894557",
+			"9ed18078-3067-4e32-a0e6-4c15b157afa2",
+			"b941f8ed-422c-49a6-9074-29718dc008d4",
+			"178d8c49-639f-4e25-a5a2-837683beb99e",
+			"a1e01767-0010-4ff1-8b22-a3e717130657",
+			"3e710996-22b8-411c-8c99-cb7d59eab32e",
+			"cdd26264-7132-4a31-972d-29a1b194faca",
+			"55052f4a-1e24-49d4-8757-e85d38923013",
+			"0a6e5745-6cb0-4f33-812e-97309141c49d",
+			"601f0cb5-5542-4dfe-8e7d-05691287ee11",
+			"20de899a-38d8-43c3-a425-9bc79bb5652f"
+		],
+		"folders_order": [],
+		"owner": "3445843",
+		"favorite": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "localhost:3001/cc/",
+			"id": "ceca30a4-de7f-4b05-8a16-6cb5be990fd9",
+			"url": "localhost:3001/cc/",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"32"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "32",
+			"totalRequestTime": "32",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:3001/ge/ ",
+			"id": "a35e136a-5a47-4209-b20a-7ece3b894557",
+			"url": "localhost:3001/ge/",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"10"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "10",
+			"totalRequestTime": "10",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:3001/cart/",
+			"id": "9ed18078-3067-4e32-a0e6-4c15b157afa2",
+			"url": "localhost:3001/cart/",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"7"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "7",
+			"totalRequestTime": "7",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:3001/cc/",
+			"id": "b941f8ed-422c-49a6-9074-29718dc008d4",
+			"url": "localhost:3001/cc/",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"7"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "7",
+			"totalRequestTime": "7",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:3001/ge/",
+			"id": "178d8c49-639f-4e25-a5a2-837683beb99e",
+			"url": "localhost:3001/ge/",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"6"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "6",
+			"totalRequestTime": "6",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:3001/cart/",
+			"id": "a1e01767-0010-4ff1-8b22-a3e717130657",
+			"url": "localhost:3001/cart/",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"7"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "7",
+			"totalRequestTime": "7",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:3001/cc/3",
+			"id": "3e710996-22b8-411c-8c99-cb7d59eab32e",
+			"url": "localhost:3001/cc/6",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"8"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "8",
+			"totalRequestTime": "8",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:3001/ge/1",
+			"id": "cdd26264-7132-4a31-972d-29a1b194faca",
+			"url": "localhost:3001/ge/1",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"6"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "6",
+			"totalRequestTime": "6",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:3001/cart/1",
+			"id": "55052f4a-1e24-49d4-8757-e85d38923013",
+			"url": "localhost:3001/cart/2",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"6"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "6",
+			"totalRequestTime": "6",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:3001/cc/5",
+			"id": "0a6e5745-6cb0-4f33-812e-97309141c49d",
+			"url": "localhost:3001/cc/5",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"20"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "20",
+			"totalRequestTime": "20",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:3001/ge/5",
+			"id": "601f0cb5-5542-4dfe-8e7d-05691287ee11",
+			"url": "localhost:3001/cc/5",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"6"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "6",
+			"totalRequestTime": "6",
+			"iterationResults": {}
+		},
+		{
+			"name": "localhost:3001/cart/5",
+			"id": "20de899a-38d8-43c3-a425-9bc79bb5652f",
+			"url": "localhost:3001/cart/200",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"7"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "7",
+			"totalRequestTime": "7",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 122,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "localhost:3001/cc/",
+			"id": "ceca30a4-de7f-4b05-8a16-6cb5be990fd9",
+			"url": "localhost:3001/cc/",
+			"time": "2019-06-18T01:53:20.816Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:3001/ge/ ",
+			"id": "a35e136a-5a47-4209-b20a-7ece3b894557",
+			"url": "localhost:3001/ge/",
+			"time": "2019-06-18T01:53:20.816Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:3001/cart/",
+			"id": "9ed18078-3067-4e32-a0e6-4c15b157afa2",
+			"url": "localhost:3001/cart/",
+			"time": "2019-06-18T01:53:20.816Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:3001/cc/",
+			"id": "b941f8ed-422c-49a6-9074-29718dc008d4",
+			"url": "localhost:3001/cc/",
+			"time": "2019-06-18T01:53:20.816Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:3001/ge/",
+			"id": "178d8c49-639f-4e25-a5a2-837683beb99e",
+			"url": "localhost:3001/ge/",
+			"time": "2019-06-18T01:53:20.816Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:3001/cart/",
+			"id": "a1e01767-0010-4ff1-8b22-a3e717130657",
+			"url": "localhost:3001/cart/",
+			"time": "2019-06-18T01:53:20.816Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:3001/cc/3",
+			"id": "3e710996-22b8-411c-8c99-cb7d59eab32e",
+			"url": "localhost:3001/cc/6",
+			"time": "2019-06-18T01:53:20.816Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:3001/ge/1",
+			"id": "cdd26264-7132-4a31-972d-29a1b194faca",
+			"url": "localhost:3001/ge/1",
+			"time": "2019-06-18T01:53:20.816Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:3001/cart/1",
+			"id": "55052f4a-1e24-49d4-8757-e85d38923013",
+			"url": "localhost:3001/cart/2",
+			"time": "2019-06-18T01:53:20.816Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:3001/cc/5",
+			"id": "0a6e5745-6cb0-4f33-812e-97309141c49d",
+			"url": "localhost:3001/cc/5",
+			"time": "2019-06-18T01:53:20.816Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:3001/ge/5",
+			"id": "601f0cb5-5542-4dfe-8e7d-05691287ee11",
+			"url": "localhost:3001/cc/5",
+			"time": "2019-06-18T01:53:20.816Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "localhost:3001/cart/5",
+			"id": "20de899a-38d8-43c3-a425-9bc79bb5652f",
+			"url": "localhost:3001/cart/200",
+			"time": "2019-06-18T01:53:20.816Z",
+			"responseCode": {
+				"code": 204,
+				"name": "No Content",
+				"detail": {
+					"name": "No Content",
+					"detail": "The server successfully processed the request, but is not returning any content."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
