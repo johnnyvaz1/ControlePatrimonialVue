@@ -4,16 +4,14 @@
     <div class="container-fluid">
       <div class="navbar-wrapper">
         <div class="navbar-toggle d-inline" :class="{toggled: $sidebar.showSidebar}">
-          <button type="button"
-                  class="navbar-toggler"
-                  aria-label="Navbar toggle button"
+          <button type="button" class="navbar-toggler"
                   @click="toggleSidebar">
             <span class="navbar-toggler-bar bar1"></span>
             <span class="navbar-toggler-bar bar2"></span>
             <span class="navbar-toggler-bar bar3"></span>
           </button>
         </div>
-        <a class="navbar-brand" href="#johnny">{{routeName}}</a>
+        <a class="navbar-brand" href="#pablo">{{routeName}}</a>
       </div>
       <button class="navbar-toggler" type="button"
               @click="toggleMenu"
@@ -46,35 +44,9 @@
             </modal>
             <base-dropdown tag="li"
                            :menu-on-right="!$rtl.isRTL"
-                           title-tag="a" class="nav-item">
-              <a slot="title" href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="true">
-                <div class="notification d-none d-lg-block d-xl-block"></div>
-                <i class="tim-icons icon-sound-wave"></i>
-                <p class="d-lg-none">
-                  Novas Notificações
-                </p>
-              </a>
-              <li class="nav-link">
-                <a href="#" class="nav-item dropdown-item">Mike John responded to your email</a>
-              </li>
-              <li class="nav-link">
-                <a href="#" class="nav-item dropdown-item">You have 5 more tasks</a>
-              </li>
-              <li class="nav-link">
-                <a href="#" class="nav-item dropdown-item">Your friend Michael is in town</a>
-              </li>
-              <li class="nav-link">
-                <a href="#" class="nav-item dropdown-item">Another notification</a>
-              </li>
-              <li class="nav-link">
-                <a href="#" class="nav-item dropdown-item">Another one</a>
-              </li>
-            </base-dropdown>
-            <base-dropdown tag="li"
-                          :menu-on-right="!$rtl.isRTL"
-                          title-tag="a"
-                          class="nav-item"
-                          menu-classes="dropdown-navbar">
+                           title-tag="a"
+                           class="nav-item"
+                           menu-classes="dropdown-navbar">
               <a slot="title" href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="true">
                 <div class="photo">
                   <img src="img/anime3.png">

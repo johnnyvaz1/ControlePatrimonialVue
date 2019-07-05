@@ -26,10 +26,16 @@ module.exports = app => {
         }
     }
 
-    const get = (req, res) => {
-        // TIP: inserir paginação no get
+    const limit = 10
+    const get = async (req, res) => {
+        const page = req.query.page || 1
+        const result = await app.db('municipios').count('id').first()
+        const count = parseInt(result.count)
+        
         app.db('municipios')
-            .then(municipio => res.json(municipio))
+            .select('id', 'cod_mun', 'nome_mun')
+            .limit(limit).offset(page * limit - limit)
+            .then(municipios => res.json({ data: municipios, count, limit }))
             .catch(err => res.status(500).send(err))
     }
 
